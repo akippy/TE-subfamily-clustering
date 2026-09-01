@@ -1,0 +1,22 @@
+subset,method,n_families,mean_ARI,sequence_weighted_mean_ARI,median_ARI,Q1,Q3,ARI_ge_0.9,ARI_lt_0.5
+all families,Sequence similarity (rule 80),910,0.0219,0.0171,0.0,0.0,0.0,14,893
+all families,Phylogenetic tree (cutoff 0.02),910,0.0348,0.0181,0.0,0.0,0.0,23,885
+all families,DBSCAN (eps 0.1),910,0.1073,0.2318,0.0,0.0,0.0,92,814
+all families,UMAP + K-means (silhouette k),910,0.0316,0.0504,0.0,0.0,0.0,7,883
+all families,Spectral (silhouette k),910,0.0364,0.0504,0.0,0.0,0.0,16,878
+all families,Recursive Spectral (repeated k=2),910,0.5465,0.6898,1.0,0.0,1.0,475,412
+all families,Recursive Spectral (silhouette),910,0.5316,0.6804,0.9881,0.0,1.0,461,425
+known k > 1,Sequence similarity (rule 80),73,0.1091,0.0647,0.0055,0.0005,0.1426,2,68
+known k > 1,Phylogenetic tree (cutoff 0.02),73,0.1188,0.0784,0.0659,0.0066,0.17,0,71
+known k > 1,DBSCAN (eps 0.1),73,0.1323,0.0179,0.0036,0.0,0.0643,4,65
+known k > 1,UMAP + K-means (silhouette k),73,0.3938,0.2833,0.3874,0.0202,0.7127,7,46
+known k > 1,Spectral (silhouette k),73,0.4532,0.2831,0.4171,0.1185,0.8476,16,41
+known k > 1,Recursive Spectral (repeated k=2),73,0.388,0.3155,0.4235,0.0,0.6724,6,44
+known k > 1,Recursive Spectral (silhouette),73,0.3939,0.3218,0.424,0.0,0.6724,6,43
+known k > 1 and TE,Sequence similarity (rule 80),63,0.0649,0.0609,0.0031,0.0004,0.0469,1,61
+known k > 1 and TE,Phylogenetic tree (cutoff 0.02),63,0.0861,0.0864,0.0551,0.0055,0.1123,0,63
+known k > 1 and TE,DBSCAN (eps 0.1),63,0.0814,0.0158,0.0028,0.0,0.0301,1,58
+known k > 1 and TE,UMAP + K-means (silhouette k),63,0.3737,0.3041,0.3384,0.0188,0.712,6,41
+known k > 1 and TE,Spectral (silhouette k),63,0.4717,0.2962,0.4414,0.0542,0.9008,16,33
+known k > 1 and TE,Recursive Spectral (repeated k=2),63,0.4051,0.3315,0.4352,0.0,0.6836,6,36
+known k > 1 and TE,Recursive Spectral (silhouette),63,0.4113,0.3383,0.4757,0.0,0.6839,6,35

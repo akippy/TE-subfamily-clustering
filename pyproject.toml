@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "te-subfamily-clustering"
+version = "0.1.0"
+description = "Spectral and recursive spectral clustering for transposable-element subfamilies"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy==1.26.4",
+    "pandas==2.1.4",
+    "scikit-learn==1.6.1",
+    "biopython==1.78",
+]
+
+[project.scripts]
+te-subfamily-clustering = "te_subfamily_clustering.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

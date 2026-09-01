@@ -1,0 +1,9 @@
+{
+  "n_sequences": 122,
+  "predicted_clusters": 2,
+  "known_subfamilies": 2,
+  "adjusted_rand_index": 0.9667587576952869,
+  "selected_k": 2,
+  "selected_mean_silhouette": 0.4816095270141116,
+  "maximum_distance": 4.3017565
+}

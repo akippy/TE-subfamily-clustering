@@ -1,0 +1,17 @@
+{
+  "family_id": 308,
+  "organism": "Homo sapiens",
+  "taxonomy_id": 9606,
+  "reference_assembly": "GRCh38.p14",
+  "reference_assembly_accession": "GCA_000001405.29",
+  "Dfam_release": "3.9",
+  "sequence_count": 233,
+  "known_subfamily_counts": {
+    "LTR13A": 173,
+    "LTR13_v": 60
+  },
+  "distance_source": "IQ-TREE 2 pairwise maximum-likelihood distances from the filtered MSA",
+  "alignment_source": "MAFFT alignment of TE copies used for recursive consensus validation",
+  "id_policy": "Original Dfam accessions and genomic coordinates were replaced consistently with family-specific sequential IDs. No ID mapping is distributed.",
+  "integrity": "Only sequence identifiers were replaced; distance strings, aligned sequences, record order, and known-subfamily labels were preserved."
+}

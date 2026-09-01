@@ -1,0 +1,7 @@
+{
+  "n_sequences": 233,
+  "predicted_clusters": 3,
+  "known_subfamilies": 2,
+  "adjusted_rand_index": 0.8671262391897416,
+  "accepted_splits": 2
+}
