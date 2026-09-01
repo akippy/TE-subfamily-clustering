@@ -219,6 +219,8 @@ python examples/fixed_binary_baseline.py
 
 ## 910 familyでの評価
 
+本研究では910 familyを評価対象とし、そのうち既知subfamilyが複数存在するTE 63 familyについて手法間のARIを主要比較しています。本リポジトリに収録するサンプルを2 familyに限定しているのは、この2 familyだけで研究評価を行ったためではなく、研究データ全体を公開せずに解析処理を小規模に実行・確認できる代表例を示すためです。family 372は通常のSpectral Clusteringを確認するQuick Start用、family 308は実際に再帰分割が行われるFull Recursive Example用です。63 familyの比較については、family別データではなく集約結果のみを [reports/evaluation_910_method_summary.csv](reports/evaluation_910_method_summary.csv) に収録しています。
+
 現行の研究出力について、7手法すべてで同じ910 familyが揃っていることを確認し、古い909 family・848 familyのsummaryを使用せず再集計しました。
 
 - 全対象：910 family、746,565配列
