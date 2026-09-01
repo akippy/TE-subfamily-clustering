@@ -112,11 +112,11 @@ Adjusted Rand Index（ARI）等による評価
 
 ## Affinity Matrix
 
-family内の最大距離を \(D_{\max}\) とし、距離行列 \(D\) を次式で反転正規化します。
+family内の最大距離を $D_{\max}$ とし、距離行列 $D$ を次式で反転正規化します。
 
-\[
+$$
 W_{ij} = 1 - \frac{D_{ij}}{D_{\max}}
-\]
+$$
 
 元研究コードの挙動を維持するため、変換後の対角成分は明示的に0へ設定します。
 
@@ -219,7 +219,7 @@ python examples/fixed_binary_baseline.py
 
 ## 910 familyでの評価
 
-本研究では910 familyを評価対象とし、そのうち既知subfamilyが複数存在するTE 63 familyについて手法間のARIを主要比較しています。本リポジトリに収録するサンプルを2 familyに限定しているのは、この2 familyだけで研究評価を行ったためではなく、研究データ全体を公開せずに解析処理を小規模に実行・確認できる代表例を示すためです。family 372は通常のSpectral Clusteringを確認するQuick Start用、family 308は実際に再帰分割が行われるFull Recursive Example用です。63 familyの比較については、family別データではなく集約結果のみを [reports/evaluation_910_method_summary.csv](reports/evaluation_910_method_summary.csv) に収録しています。
+本研究では910 familyを評価対象とし、そのうち既知subfamilyが複数存在するTE 63 familyについて手法間のARIを比較しています。本リポジトリに収録するサンプルを2 familyに限定しているのは、この2 familyだけで研究評価を行ったためではなく、研究データ全体の公開を目的とせず、解析処理を小規模に実行・確認できる代表例を示すためです。family 372は通常のSpectral Clusteringを確認するQuick Start用、family 308は実際に再帰分割が行われるFull Recursive Example用です。63 familyの比較については、family別データではなく集約結果のみを [reports/evaluation_910_method_summary.csv](reports/evaluation_910_method_summary.csv) に収録しています。
 
 現行の研究出力について、7手法すべてで同じ910 familyが揃っていることを確認し、古い909 family・848 familyのsummaryを使用せず再集計しました。
 
